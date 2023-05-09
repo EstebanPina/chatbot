@@ -3,6 +3,9 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  env:{
+    OPENAI_API_KEY:"YOUR_OPENAI_API_KEY"
+  }
 }
 
 module.exports = nextConfig
